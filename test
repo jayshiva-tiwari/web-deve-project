@@ -1,12 +1,146 @@
-<html>
-  <head>
-    <title>
-      tera bhai
-    </title>
-  </head>
-  <body>
-     <h1>hello, brohter</h1>
-     <p>how are you?</p>
-     <p>what are you doing?</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> amazon.com </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="jjavascript.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <section class="section-navbar">
+            
+        <div class="navbar">
+            <div class="nav-logo">
+                    <div class="logo"></div>
+            </div>
+        
+
+        <div class="nav-address border">
+            <p class="p-first">
+                Made in
+            </p>
+            <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="p-sec">India</p>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="search your courses" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="country-menu">
+                <div class="select-country">
+                    India
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="ja">Japan</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="in">India</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="ru">Russia</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="fr">France</a>
+                    </li>
+                    <li>
+                        <a href="#" class="us">Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second"> & Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-flatbed"></i>
+                <p class="cart">cart</p>
+            </div>
+        </div>
+        </section>
+
+    <section>
+        <div class="panel">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+                <a href="#" class="all">All</a>
+            </div>
+            <div class="panel-option ">
+                <a href="#" class="new border">New</a>
+                <a href="#" class="costomer border">Costomer Service</a>
+                <a href="#" class="registry border">Registry</a>
+                <a href="#" class="gift border">Gift You</a>
+                <a href="#" class="sells border">Sells</a>
+            </div>
+            <div class="panel-deals border">
+                <a href="#" class="details">Your Course details & deals</a>
+            </div>
+        </div>
+    </section>
+            
+    </header>
+    <div class="hero-section">
+            <div class="container">
+                <h1>Your Courses are <span class="auto-type"></span></h1>
+                <h2>Life is Learning with <span class="hero-line">Smile G</span></h2>
+            </div>
+        </div>
+    </div>
+<!--courses shop-->
+    <div class="shop-section">
+        <h2 class="courses-section"></h2>
+        <div class="box1 box">
+            <h1>Let's view the courses</h1>
+            <div class="box-img">
+                <p>compl</p>
+            </div>
+        </div>
+        <div class="box2 box">card</div>
+        <div class="box3 box">card</div>
+        <div class="box4 box">card</div>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <script>
+        var typed = new Typed('.auto-type', {
+            strings: ["Graphic-Design", "Marketing", "YouTuber", "web-Deve", "stock-Market", "web-design"],
+            typespeed: 200,
+            backspeed: 200,
+            loop: true
+        })
+    </script>
+    
+</body>
+<!--<div class="img-line">
+            <p class="img-p">Life is</p>
+            <p class="img-l">Learning</p>
+        </div>-->
+
+        <!--.font-family: 'Ysabeau SC', sans-serif;-->
 </html>
